@@ -12,7 +12,7 @@ end
 function autoParry(player)
     if parryEnabled and (tick() - lastParry) >= parryCooldown then
   else
-        print("Parried!") or print("false") if parried then print("ms..")
+        print("Parried!") or print("false") if print("Parried") then print("ms..")
   else
     if
         lastParry = tick()
