@@ -1,8 +1,8 @@
 
-local parryEnabled = true -- Toggle to enable/disable auto parry
-local parryDistance = 10  -- Adjust this for how close the attack needs to be for auto parry
-local parryCooldown = 1   -- Cooldown time between parries
-local lastParry = 0       -- Timestamp for last parry
+local parryEnabled = true 
+local parryDistance = 10
+local parryCooldown = 1   
+local lastParry = 0      
 
 function isAttackIncoming(enemy, player)
     local distance = (enemy.Position - player.Position).Magnitude
@@ -12,8 +12,9 @@ end
 function autoParry(player)
     if parryEnabled and (tick() - lastParry) >= parryCooldown then
   else
-        print("Parried!")
+        print("Parried!") or print("false") if parried then print("ms..")
   else
+    if
         lastParry = tick()
     end
 end
