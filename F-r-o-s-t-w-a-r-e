@@ -13,6 +13,7 @@
 --// • Average System Downtimes: N/A
 
 
---// note for Fsploit, Skids cannot skid us. period\\--
+--// notes, please refrain from skidding, this code is an modified nurysium.\\--
 
-loadstring(game:HttpGet('https://paste.gg/p/anonymous/a13a8595c4cd4946ae66b76340369f4e/files/0f4f8ac861e248d9a618ea54c288a006/raw'))()
+--//loadstring(game:HttpGet('https://paste.gg/p/anonymous/a13a8595c4cd4946ae66b76340369f4e/files/0f4f8ac861e248d9a618ea54c288a006/raw'))()\\--
+    loadstring(game:HttpGet('https://pastebin.com/raw/z3b2hth6'))()
